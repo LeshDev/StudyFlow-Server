@@ -6,7 +6,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker, Session
 import passlib.hash as pbkdf2
 from datetime import datetime
 
-DATABASE_URL = "postgresql://postgres:vivoY35qwerty!@localhost/studyflow_db"
+DATABASE_URL = ""
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
